@@ -1,0 +1,9 @@
+Python:
+In Python, the `csv` module is often used to read and write CSV (Comma-Separated Values) files. By default, the comma (`,`) is used as the delimiter. For example, a CSV file with two columns, "Name" and "Age", might look like this:
+John,25
+Jane,30
+To specify a different delimiter, you can pass the `delimiter` parameter when working with the `csv` module.
+
+Julia:
+In Julia, the `CSV` package provides convenient functions for working with CSV files. By default, the comma (`,`) is also used as the delimiter. To read a CSV file with a different delimiter, you can pass the `delim` parameter to the `CSV.File` function. For example, to read a file with semicolon-separated values:
+data = CSV.File("data.csv", delim=';')
